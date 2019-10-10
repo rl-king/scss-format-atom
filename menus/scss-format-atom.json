@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run scss-format-atom",
+        "command": "scss-format-atom:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "scss-format-atom",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "scss-format-atom:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
